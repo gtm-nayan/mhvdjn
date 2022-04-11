@@ -9,7 +9,7 @@
 	<div>दिएको निर्देशन अनुसार सिर्जनात्मक तथा मौलिक शैलीमा तलको प्रश्नको उत्तर लेख।</div>
 	<div style:font-weight="bold" style:text-align="center">समुह 'क' भौतिक बिज्ञान</div>
 	<ol>
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question
 				text="आयतन भनेको के हो ? नापमा SI एकाई प्रणालीको विकास गर्नुपर्नाका दुइवोटा कारण लेख।"
 				marks={[1, 1]}
@@ -20,7 +20,7 @@
 			/>
 		</Question>
 
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question
 				text="सेन्ट्रिपेटल बल को परिभाषा दिनुहोस। समान गति र असमान गतिमा फरक छुट्याउ।"
 				marks={[1, 2]}
@@ -28,7 +28,7 @@
 			<Question text="चाप भनेको के हो? चाप कुन दुई कुरामा निर्भर रहन्छ?" marks={[1, 1]} />
 		</Question>
 
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question
 				text="ठोस माध्यममा ताप प्रसारण हुने विधिलाई के भनिन्छ ? थर्मोमिटरमा कुन पदार्थको प्रयोग गरिएको हुन्छ? अल्कोहलको उम्लने तापक्रम बिन्दु कति हो?"
 				marks={[0.5, 1, 0.5]}
@@ -45,7 +45,7 @@
 			</Question>
 		</Question>
 
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question
 				text="प्रकाशको नियमित पराबर्तन भनेको के हो?प्रकाश परावर्तनका नियमहरु उल्लेख गर।"
 				marks={[1, 2]}
@@ -56,12 +56,11 @@
 			/>
 		</Question>
 
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question text="प्राकृतिक चुम्बक र कृत्रिम चुम्बक विच दुई फरक लेख।" marks={[2]} />
 			<Question
 				text="चित्रमा देखाइएको परिपथको अध्ययन गरी सोधिएको प्रश्नहरुको उत्तर लेख।"
 				marks={[1, 1, 1]}
-				ol_styles="list-style-type: nepali-vowels;"
 			>
 				<div style:display="grid" style:place-items="center">{@html circuit}</div>
 				<Question text="चित्रमा सेलहरुलाई कुन प्रकारले जडान गरिएको छ?" />
@@ -76,7 +75,7 @@
 			<hr />
 			समुह 'ख' रसायन बिज्ञान
 		</div>
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question
 				text="पदार्थ भन्नाले के बुझिन्छ ? Li र Be कुन तत्वका संकेत हुन् लेख।"
 				marks={[1, 1]}
@@ -84,7 +83,7 @@
 			<Question text="अणु भनेको के हो? तत्व र योगीक विच फरक लेख।" marks={[1, 2]} />
 		</Question>
 
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question text="todo बिधि भनेको के हो? संछिप्त वर्णन गर।" marks={[1, 2]} />
 			<Question
 				text="घोलको परिभाषा लेख।  दैनिक जीवनमा घोललाई के के काममा प्रयोग गरिन्छ ? कुनै दुई उपयोगिता लेख।"
@@ -92,7 +91,7 @@
 			/>
 		</Question>
 
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question text="अधातुलाई परिभाषित गर।  कुनै दुई अधातुको नाम लेख।" marks={[1, 1]} />
 			<Question
 				text="रासायनिक मलको आवस्यकता किन पर्दछ? डेटोल र  फेनोलको एक एक कार्य लेख।"
@@ -104,7 +103,7 @@
 			<hr />
 			समुह 'ग' जिव बिज्ञान
 		</div>
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question
 				text="गाईलाई समतापी जिव भन्नुको कारण लेख।  भ्यागुता र चमेरो कुन वर्गमा पर्ने जनावर हुन् लेख।"
 				marks={[1, 1]}
@@ -114,7 +113,7 @@
 				marks={[1, 2]}
 			/>
 		</Question>
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question
 				text="परागसेचन भनेको के हो? विरुवाको काण्ड र पात ले गर्ने एक एक कार्य लेख।"
 				marks={[1, 2]}
@@ -124,7 +123,7 @@
 				marks={[2]}
 			/>
 		</Question>
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question
 				text="कोष भनेको के हो ? अमिवा कोषमा हुने दुई प्रकारका भ्याकुल हरुको नाम लेख।"
 				marks={[1, 1]}
@@ -139,7 +138,7 @@
 			<hr />
 			समुह 'घ' भू तथा अन्तरिक्ष बिज्ञान
 		</div>
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question
 				text="मौसम भनेको के हो? आग्नेय र पत्रे चट्टान का एक एक वटा उदाहरण देउ। "
 				marks={[1, 1]}
@@ -154,13 +153,13 @@
 			<hr />
 			समुह 'ङ' वातावरण बिज्ञान
 		</div>
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question text="जलस्रोतको महत्व र आवस्यकताहरु बुँदागत रुपमा उल्लेख गर। " marks={[1, 1]} />
 			<Question text="विच्छेदक भनेको के हो ? कुनै दुई उपभोक्ताको उदाहरण देउ। " marks={[1, 2]} />
 		</Question>
 
 		<!-- <br /> -->
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question
 				text="बनविनाशले वातावारंमा पार्ने दुईवटा असरहरु लेखि बनविनाश रोकथामका उपाय उल्लेख गर। "
 				marks={[1, 1]}
@@ -171,7 +170,7 @@
 			/>
 		</Question>
 
-		<Question text="" ol_styles="list-style-type: nepali-consonants;">
+		<Question text="">
 			<Question
 				text="दिगो विकास भनेको के हो ? नेपालमा दिगो विकासको लागि भइरहेका कुनै दुई प्रयास लेख। "
 				marks={[1, 2]}

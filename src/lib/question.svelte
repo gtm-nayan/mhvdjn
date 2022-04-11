@@ -1,15 +1,21 @@
 <script lang="ts">
+	import { getContext, setContext } from 'svelte';
 	import Marks from './marks.svelte';
+	import { ctx_key } from './utils';
 
 	export let op: '*' | '+' = '+';
 	export let marks: number[] = null;
 	export let text: string = '';
 
 	export let ol_styles = '';
+
+	const level = getContext<number>(ctx_key) ?? 0;
+	setContext(ctx_key, level + 1);
+	const numerals = ['devanagari', 'nepali-consonants', 'nepali-vowels'][level] ?? '';
 </script>
 
 <div class="w">
-	<li>
+	<li style:list-style-type={numerals}>
 		<div>
 			<span>{text}</span>
 			<Marks {marks} {op} />

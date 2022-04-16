@@ -3,5 +3,3 @@ export function to_devnagari_number(number: number | string): string {
 		return String.fromCharCode(0x966 + +digit);
 	});
 }
-
-export const ctx_key = Symbol();
